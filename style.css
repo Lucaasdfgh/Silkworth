@@ -56,3 +56,17 @@ h6 {
     padding: 20px;
     margin: 0;
 }
+@media (max-width: 576px) {
+    .container-min {
+        display: flex;
+        flex-direction:column;
+    }
+    
+ }
+
+ @media (min-width: 820px) and (max-width: 900px){
+    .container-min {
+        flex-direction: column;
+    }
+    
+ }
